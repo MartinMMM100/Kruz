@@ -22,11 +22,11 @@ let isLoading = false;
 
 // Port coordinates for map
 const portCoords = {
-  'Rotterdam': { left: 45, top: 30 },
-  'Shanghai': { left: 85, top: 35 },
-  'Los Angeles': { left: 15, top: 45 },
-  'Singapore': { left: 75, top: 65 },
-  'Santos': { left: 30, top: 70 }
+  'Durban': { left: 45, top: 30 },
+  'Richards Bay': { left: 85, top: 35 },
+  'Cape Town': { left: 15, top: 45 },
+  'East London': { left: 75, top: 65 },
+  'Ngqura': { left: 30, top: 70 }
 };
 
 
@@ -759,8 +759,8 @@ function initAutomatedProcesses() {
   // 2. Congestion monitoring (every minute)
   setInterval(() => {
     const congestionAlerts = [
-      { port: 'Los Angeles', level: 85 },
-      { port: 'Shanghai', level: 65 }
+      { port: 'Durban', level: 85 },
+      { port: 'Richards Bay', level: 65 }
     ];
 
     congestionAlerts.forEach(alert => {
